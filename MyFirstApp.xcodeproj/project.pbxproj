@@ -14,6 +14,8 @@
 		1A256CF229B0D1C1005C0F3E /* MyFirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A256CF129B0D1C1005C0F3E /* MyFirstAppTests.swift */; };
 		1A256CFC29B0D1C1005C0F3E /* MyFirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A256CFB29B0D1C1005C0F3E /* MyFirstAppUITests.swift */; };
 		1A256CFE29B0D1C1005C0F3E /* MyFirstAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A256CFD29B0D1C1005C0F3E /* MyFirstAppUITestsLaunchTests.swift */; };
+		1A6B89D329B0FD4E009F4858 /* SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B89D229B0FD4E009F4858 /* SwiftUI.swift */; };
+		1A6B89D729B102A9009F4858 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B89D629B102A9009F4858 /* Variable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		1A256CF729B0D1C1005C0F3E /* MyFirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A256CFB29B0D1C1005C0F3E /* MyFirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppUITests.swift; sourceTree = "<group>"; };
 		1A256CFD29B0D1C1005C0F3E /* MyFirstAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A6B89D229B0FD4E009F4858 /* SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI.swift; sourceTree = "<group>"; tabWidth = 4; };
+		1A6B89D629B102A9009F4858 /* Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,10 @@
 		1A256CDF29B0D1C1005C0F3E /* MyFirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				1A6B89D229B0FD4E009F4858 /* SwiftUI.swift */,
 				1A256CE029B0D1C1005C0F3E /* MyFirstAppApp.swift */,
 				1A256CE229B0D1C1005C0F3E /* ContentView.swift */,
+				1A6B89D629B102A9009F4858 /* Variable.swift */,
 				1A256CE429B0D1C1005C0F3E /* Assets.xcassets */,
 				1A256CE629B0D1C1005C0F3E /* Preview Content */,
 			);
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A6B89D329B0FD4E009F4858 /* SwiftUI.swift in Sources */,
 				1A256CE329B0D1C1005C0F3E /* ContentView.swift in Sources */,
 				1A256CE129B0D1C1005C0F3E /* MyFirstAppApp.swift in Sources */,
+				1A6B89D729B102A9009F4858 /* Variable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
