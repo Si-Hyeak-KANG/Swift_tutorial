@@ -10,14 +10,18 @@ import SwiftUI
 struct SwiftUI: View {
     var body: some View {
         
-        Button {
-            print("Clicked!")
-        } label: {
-            Text("Hello, World!")
-                .font(.title)
-                .fontWeight(.black)
-                .foregroundColor(Color.yellow)
-                .padding()
+        VStack {
+            Button {
+                print("Clicked!")
+            } label: {
+                Text("Hello, SOO!")
+                    .font(.title)
+                    .fontWeight(.black)
+                    .foregroundColor(Color.yellow)
+                    .padding()
+            }
+            
+            Text("이수정 사랑해")
         }
     }
 }

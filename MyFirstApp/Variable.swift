@@ -16,11 +16,14 @@ struct Variable: View {
     let hasJob: Bool = true
     
     var body: some View {
+        // VStack 은 10 이상 담을 수 없음
         VStack {
             Text("Hello,world!")
             Text("Hello.james")
             Text("Hello,crystal LEE")
             Text("hello \(name) \(age) \(height) \(hasJob.description)")
+            
+            // 연산자는 자바와 동일
         }
     }
 }
